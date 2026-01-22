@@ -13,9 +13,12 @@ env/
 .DS_Store
 Thumbs.db
 
-# Demo data (IMPORTANT)
+# Demo data (do not commit)
 pat_log.jsonl
 pat_keys.json
+
+# pytest
+.pytest_cache/
 
 # IDE
 .vscode/
