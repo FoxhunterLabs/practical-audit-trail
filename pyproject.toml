@@ -1,0 +1,12 @@
+[project]
+name = "practical-audit-trail"
+version = "0.2.0"
+description = "A tiny demo that turns a single AI output into a courtroom-grade receipt: append-only hash-chained ledger, deterministic replay, and verifiable human approval."
+requires-python = ">=3.10"
+dependencies = [
+  "flask>=3.0.0",
+  "cryptography>=42.0.0"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
