@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# venvs
+.venv/
+venv/
+env/
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# Demo data (IMPORTANT)
+pat_log.jsonl
+pat_keys.json
+
+# IDE
+.vscode/
+.idea/
